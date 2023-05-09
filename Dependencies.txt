@@ -1,0 +1,17 @@
+requests - a Python library for sending HTTP requests
+beautifulsoup4 - a Python library for web scraping and parsing HTML and XML documents
+You can install these dependencies using the following commands:
+
+Copy code
+pip install requests
+pip install beautifulsoup4
+Alternatively, you can also create a requirements.txt file and list the dependencies with their version numbers, like this:
+
+makefile
+Copy code
+requests==2.25.1
+beautifulsoup4==4.9.3
+Then you can use the following command to install all the dependencies at once:
+
+Copy code
+pip install -r requirements.txt
